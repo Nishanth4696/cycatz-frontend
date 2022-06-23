@@ -134,7 +134,7 @@
 }
 @media (max-width: 420px) {
   .signuppage {
-    height: 100%;
+    height: 50vh;
   }
   .formcontainer {
     padding: 10px;
@@ -146,7 +146,11 @@
     width: min-content;
     
   }
-
+  .forgotpage{
+    justify-content: center;
+    margin: 0;
+    height: 50vh;
+  }
  
   .list{
    height: 100%;
