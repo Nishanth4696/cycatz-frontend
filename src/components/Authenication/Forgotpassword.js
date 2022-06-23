@@ -44,6 +44,9 @@ export function Forgotpassword() {
           msg: "Verification link sent to the registered mail",
           status: "success",
         });
+        setTimeout(() => {
+          history.push("/login")
+        }, 5000); 
       } else {
         setMsg({ msg: "Mail is not registered", status: "error" });
       }
@@ -106,7 +109,10 @@ export function Forgotpassword() {
             variant="contained"
             className="signupfieldbutton"
             color="success"
-            onClick={()=>history.push("/resetpassword/:id")}
+            // onClick={()=>setTimeout(() => {
+            //   history.push('/register/:id')
+            // }, 5000)}
+           
           >
             Submit
           </Button>
@@ -126,6 +132,7 @@ export function Forgotpassword() {
         >
           {Msg.msg}
         </Alert>
+        
       </Snackbar>
     </div>
     

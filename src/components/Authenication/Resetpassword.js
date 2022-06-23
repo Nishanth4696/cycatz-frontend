@@ -34,8 +34,8 @@ export function Resetpassword() {
         user(updatepass);
       },
     });
-  const user = (updatepass) => {
-    fetch(`${API_URL}/users/resetpassword`, {
+  const user = (updatepass, token) => {
+    fetch(`${API_URL}/users/edit/${token}}`, {
       method: "POST",
       body: JSON.stringify(updatepass),
       headers: { "Content-Type": "application/json" },
@@ -103,9 +103,9 @@ export function Resetpassword() {
               touched.confirmpassword &&
               errors.confirmpassword
             }
-            name="confirmpassword"
+            name="confirm password"
             id="confirmpassword"
-            label="confirmpassword"
+            label="confirm password"
             placeholder="Enter password"
             fullWidth
             sx={{ margin: "5px" }}
