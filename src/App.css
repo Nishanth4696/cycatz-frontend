@@ -159,7 +159,7 @@
   }
   .loginpage{
     height: 100vh;
-    width: min-content;
+    justify-content: center;
     
   }
   .forgotpage{
