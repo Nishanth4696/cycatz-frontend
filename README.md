@@ -9,4 +9,4 @@
 
 ### `Login's to access application`
 
-<div><p>Demo Access : Username -  <b>Vetry </b> ; password - <b>vetrymaran@123 </b> </p> </div>
+<div><p>Demo Access : Username -  <b>Vetry</b> ; password - <b>vetrymaran@123 </b> </p> </div>
