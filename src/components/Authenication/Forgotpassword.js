@@ -34,7 +34,7 @@ export function Forgotpassword() {
     });
 
   const forgotpass = (email) => {
-    fetch(`${API_URL}/users/forgotpassword`, {
+    fetch(`${API_URL}/user/forgotpassword`, {
       method: "POST",
       body: JSON.stringify(email),
       headers: { "Content-Type": "application/json" },
