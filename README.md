@@ -4,7 +4,7 @@
 
 <p>Frontend Repo <a href="https://github.com/Nishanth4696/cycatz-frontend">https://github.com/Nishanth4696/cycatz-frontend </a></p>
 
-<p>Backend Repo <a href="https://github.com/Preethi-ST/Invoicejet-Server">https://github.com/Nishanth4696/Cycatz-Backend </a></p>
+<p>Backend Repo <a href="https://github.com/Nishanth4696/Cycatz-Backend">https://github.com/Nishanth4696/Cycatz-Backend </a></p>
 
 
 ### `Login's to access application`
