@@ -132,6 +132,22 @@
   padding: 10px;
   justify-content: space-evenly;
 }
+
+.Home{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction:'column';
+  background-color: skyblue;
+  margin: 0;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+ 
+  font-size: 64px;
+  color: white;
+
+}
 @media (max-width: 420px) {
   .signuppage {
     height: 50vh;
@@ -162,6 +178,20 @@
     display: flex;
     
 
+  }
+  .Home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    background-color: skyblue;
+    margin: 0;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-size: 64px;
+    color: white;
+    align-content: center;
   }
 
   .contains :hover{
