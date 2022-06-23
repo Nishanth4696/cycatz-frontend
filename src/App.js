@@ -6,7 +6,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import { Signup } from "./components/Authenication/Signup.js";
 import { Forgotpassword } from "./components/Authenication/Forgotpassword.js";
 import { Resetpassword } from "./components/Authenication/Resetpassword.js";
-
+import Home from "./Home";
 import { useParams } from "react-router-dom";
 import CircularProgress from "@mui/material/CircularProgress";
 import { API_URL } from "./globalconstant.js";
@@ -33,6 +33,9 @@ export default function App() {
         </Route>
         <Route exact path="/resetpassword/:id">
           <Resetpassword />
+        </Route>
+        <Route exact path="/home">
+          <Home />
         </Route>
         
       </Switch>

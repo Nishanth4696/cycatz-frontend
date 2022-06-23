@@ -54,7 +54,7 @@ export function Login() {
           setOpen(true);
           localStorage.setItem("token", x.token);
           localStorage.setItem("Username", x.username);
-          history.push("/menu");
+          history.push("/home");
         } else {
           setMsg({ msg: x.message, status: "error" });
           setOpen(true);
