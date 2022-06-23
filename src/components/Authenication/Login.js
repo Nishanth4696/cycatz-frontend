@@ -13,7 +13,8 @@ import { useFormik } from "formik";
 import { API_URL } from "../../globalconstant.js";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
-import VpnKeyIcon from '@mui/icons-material/VpnKey';
+
+
 
 export function Login() {
   const [open, setOpen] = React.useState(false);
@@ -89,6 +90,7 @@ export function Login() {
       </div>
       <div className="formcontainer">
         <form onSubmit={handleSubmit}>
+          <div style={{display:'flex', justifyContent:"center"}}>
           <Typography
             variant="h4"
             sx={{
@@ -101,6 +103,9 @@ export function Login() {
               
             
           </Typography>
+         <IconButton ><a href="https://github.com/Nishanth4696/cycatz-frontend/blob/master/README.md" target="_blank"><VisibilityIcon/></a></IconButton> 
+         </div>
+          
           <TextField
             InputProps={{
               startAdornment: (
